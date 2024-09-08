@@ -25,7 +25,7 @@ public class FootballManagerApp {
         FileIOReader.loadData(databaseModel);
         League league = databaseModel.leagueDB.findByID(1).get();
 
-        PlayerRepository.insertPlayer();
+        LeagueRepository.insertLeague(league);
 
 
         FileIOWriter.saveAllEntities();
