@@ -1,0 +1,9 @@
+package com.eminekarabolat.utility.enums;
+
+public enum ERegion {
+    TURKIYE,
+    ENGLAND,
+    DEUTSCHLAND,
+    ESPANA,
+    ITALIA;
+}
